@@ -309,8 +309,9 @@ namespace test2
         private static void ShowHelp()
         {
             Console.WriteLine("Test server [v.0.1]");
-            Console.WriteLine("Usage: test2 -wt[s|m|l]");
+            Console.WriteLine("Usage: test2 -wt[s|m|l] -ss");
             Console.WriteLine("-wt - Write test file (s - small 10k, m - 100k, l - 1M)");
+            Console.WriteLine("-ss - Start server at port 8080");
         }
     }
 }
